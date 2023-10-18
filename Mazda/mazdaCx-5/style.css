@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* header */
+
+#header-global {
+    width: 100%;
+    position: relative;
+}
+
+.header-global__inner-wrapper {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #2b2b2b;
+    padding: 0 15px;
+}
+
+.header-global__inner-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex; 
+    padding: 0 15px;
+}
+
+/* logo-start */
+
+.header-global__inner-wrapper__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.header-global__logo-link {
+    color: #d5d5d5;
+    text-decoration: none;
+    display: flex;
+}
+
+.header-global .header-global__logo-link .header-global__logo {
+    width: 50px;
+    height: 45px;
+}
+
+.header-global .header-global__logo-link .header__logo-p {
+    padding: 10px;
+    font-weight: 700;
+    display: initial;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+/* logo-end */
+
+/* menu-header-star */
+
+.header-global__inner-wrapper__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.header-global__nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-global__nav__list {
+    display: flex;
+}
+
+.header-global__nav__list-item {
+    padding: 0 16px;
+    position: relative;
+}
+
+.header-global__nav__list-item:hover .header-global__nav__list-item-link:hover{
+    color: #fff;
+}
+
+
+.header-global__nav__list-item-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 0;
+    font-size: 0.8rem;
+    color: #d5d5d5;
+    height: 30px;
+    line-height: 28px;
+    position: relative;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-align: center;
+    display: block;
+}
+
+.header-global__menu__upper .header-global__nav__list-item .header-global__nav__list-item-link {
+    font-size: 0.65rem;
+    color: #999999;
+    height: 28px;
+    line-height: 28px;
+}
+
+.header-global__menu__upper, .header-global__menu__lower {
+    display: flex;
+}
+
+.header-global__menu__lower {
+    margin-top: 0px;
+}
+
+
+/* menu-header-end + header-end*/
+
+
+/* submenu-start */
+
+li, details > summary{
+    list-style-type: none;
+}
+
+.fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    display: inline-block;
+}
+
+#menu-r {
+        background-color: #fff;
+        transform: translateX(calc(100% - 44px));
+        position: fixed;
+        top: 30%;
+        right: 0px;
+        z-index: 999999;
+        text-align: center;
+}
+
+#menu-r .icon-menu {
+    text-align: left;
+    min-width: 3rem;
+    padding: 10px 10px 10px 15px;
+    background-color: #fff;
+    box-shadow: inset 0px 0px 1px 1px rgba(192,192,192,0.3);
+    cursor: pointer;
+}
+
+ 
+details > summary:before {
+    content: '\f0c9';
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+}
+ 
+details[open] > summary:before {
+    content: '\2715';
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.icon-item .icon i {
+    width: 1.5rem;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#list-menu-r .icon-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+#list-menu-r .icon-item {
+    min-width: 3rem;
+    display: table;
+    margin-right: auto;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #fff;
+    padding: 10px 10px 10px 0px;
+    box-shadow: inset 0px 0px 1px 1px rgba(192,192,192,0.3);
+    transition: all 0.5s ease 0s;
+}
+
+#list-menu-r .icon-item:hover a {
+    color: red;
+}
+
+#list-menu-r .icon-item:hover {
+    transform: translateX(calc(-100% + 44px));
+}
+
+
+/* submenu-end */
