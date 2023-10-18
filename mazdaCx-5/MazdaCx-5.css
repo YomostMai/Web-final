@@ -1,0 +1,38 @@
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.candonglon{
+    width: 100%;
+    height: 50px;
+}
+
+.candonglon2{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.image-text {
+    padding: 10px 3px 40px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.image-title{
+    padding: 20px 3px 10px;
+    text-align: center;
+    color: #101010;
+    font-weight: 520;
+}
+
+.candongnho{
+    width: 100%;
+    height: 25px;
+}
+
+.mySlides {display:none}
