@@ -36,3 +36,77 @@ a{
 }
 
 .mySlides {display:none}
+
+.caroutside img{
+    width: 980px;
+    height: 452px;
+}
+#prevBtn, #nextBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+#nextBtn {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+#nextBtn-2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+#prevBtn:hover, #nextBtn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#prevBtn-2:hover, #nextBtn-2:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.ChanceColor {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    color: white;
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-color: white;
+    
+}
+.nextpre-btn{
+
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.ngoainoithat{
+    width: 150px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+.CarGallery{
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    margin:auto;
+    font-weight: bold;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
